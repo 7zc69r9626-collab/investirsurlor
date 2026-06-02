@@ -1,1 +1,347 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formation Investissement Or – Guide Débutant à Expert | InvestirSurLor.fr</title>
+<meta name="description" content="Formation complète pour investir dans l'or : or physique, ETF, CFD, actions minières. Apprenez à analyser le marché, gérer votre risque et optimiser votre fiscalité.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,400&family=Josefin+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+<style>
+:root{--gold:#C9A84C;--gold-light:#E8C97A;--black:#0A0A0A;--dark:#111;--dark2:#1A1A1A;--dark3:#242424;--grey:#888;--white:#F8F4EC;}
+*{margin:0;padding:0;box-sizing:border-box;}
+body{background:var(--black);color:var(--white);font-family:'Josefin Sans',sans-serif;font-weight:300;}
+nav{position:fixed;top:0;left:0;right:0;z-index:100;display:flex;align-items:center;justify-content:space-between;padding:18px 32px;background:rgba(10,10,10,0.97);border-bottom:1px solid rgba(201,168,76,0.2);}
+.logo{font-family:'Cormorant Garamond',serif;font-size:20px;color:var(--gold);text-decoration:none;font-weight:600;}
+.logo span{color:var(--white);}
+.nav-links{display:flex;gap:20px;list-style:none;}
+.nav-links a{color:var(--grey);text-decoration:none;font-size:10px;letter-spacing:2px;text-transform:uppercase;}
+.nav-links a:hover,.nav-links a.active{color:var(--gold);}
+.breadcrumb{padding:90px 32px 0;font-size:11px;color:var(--grey);}
+.breadcrumb a{color:var(--grey);text-decoration:none;}
+.breadcrumb span{color:var(--gold);margin:0 8px;}
+.page-hero{padding:32px 32px 56px;position:relative;}
+.page-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse 60% 80% at 0% 50%,rgba(201,168,76,0.06) 0%,transparent 70%);}
+.eyebrow{font-size:10px;letter-spacing:4px;text-transform:uppercase;color:var(--gold);margin-bottom:14px;position:relative;z-index:1;}
+.page-title{font-family:'Cormorant Garamond',serif;font-size:clamp(36px,6vw,72px);font-weight:300;line-height:1.05;position:relative;z-index:1;}
+.page-title em{font-style:italic;color:var(--gold);}
+.page-intro{max-width:640px;font-size:14px;line-height:1.9;color:var(--grey);margin-top:18px;position:relative;z-index:1;}
+.content{max-width:1000px;margin:0 auto;padding:0 32px 80px;}
+.levels{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:56px;}
+.level{padding:24px;text-align:center;}
+.level-icon{font-size:32px;margin-bottom:12px;}
+.level-title{font-family:'Cormorant Garamond',serif;font-size:20px;margin-bottom:8px;}
+.level-desc{font-size:11px;color:var(--grey);line-height:1.7;}
+.module{margin-bottom:56px;}
+.module-num{font-family:'Cormorant Garamond',serif;font-size:52px;font-weight:300;color:rgba(201,168,76,0.15);line-height:1;margin-bottom:4px;}
+.module-title{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:300;color:var(--white);margin-bottom:20px;padding-bottom:12px;border-bottom:1px solid rgba(201,168,76,0.2);}
+.module-title em{font-style:italic;color:var(--gold);}
+h3{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--gold-light);margin:28px 0 12px;}
+p{font-size:14px;line-height:1.95;color:#ccc;margin-bottom:16px;}
+strong{color:var(--white);}
+ul,ol{margin:14px 0 18px 24px;}
+li{font-size:13px;color:#bbb;margin-bottom:8px;line-height:1.7;}
+.highlight{background:var(--dark2);border:1px solid rgba(201,168,76,0.2);border-left:3px solid var(--gold);padding:22px 26px;margin:24px 0;}
+.highlight p{margin:0;font-size:13px;line-height:1.8;color:#ccc;}
+table{width:100%;border-collapse:collapse;margin:20px 0;}
+th{background:var(--dark3);padding:12px 16px;font-size:10px;letter-spacing:2px;text-transform:uppercase;color:var(--gold);text-align:left;border-bottom:1px solid rgba(201,168,76,0.2);}
+td{padding:12px 16px;font-size:12px;color:var(--grey);border-bottom:1px solid rgba(255,255,255,0.04);}
+tr:hover td{background:rgba(201,168,76,0.03);color:var(--white);}
+.steps{display:flex;flex-direction:column;gap:0;}
+.step{display:flex;gap:24px;padding:28px 0;border-bottom:1px solid rgba(255,255,255,0.06);}
+.step-num{font-family:'Cormorant Garamond',serif;font-size:52px;font-weight:300;color:rgba(201,168,76,0.15);line-height:1;min-width:64px;}
+.step-title{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--white);margin-bottom:8px;}
+.step-text{font-size:13px;line-height:1.8;color:var(--grey);}
+.quiz-box{background:var(--dark3);border:1px solid rgba(201,168,76,0.2);padding:28px;margin:40px 0;}
+.quiz-q{font-family:'Cormorant Garamond',serif;font-size:22px;color:var(--white);margin-bottom:20px;}
+.quiz-option{background:var(--dark2);border:1px solid rgba(255,255,255,0.08);padding:12px 18px;margin:8px 0;cursor:pointer;font-size:13px;transition:all .3s;width:100%;text-align:left;color:var(--white);font-family:'Josefin Sans',sans-serif;}
+.quiz-option:hover{border-color:var(--gold);color:var(--gold);}
+.cta-box{background:linear-gradient(135deg,rgba(201,168,76,0.1),rgba(139,105,20,0.05));border:1px solid rgba(201,168,76,0.25);padding:40px;text-align:center;margin:48px 0;}
+.cta-box h3{font-family:'Cormorant Garamond',serif;font-size:32px;font-weight:300;margin-bottom:12px;color:var(--white);}
+.cta-box p{color:var(--grey);font-size:13px;margin-bottom:24px;}
+.btn-gold{display:inline-block;background:var(--gold);color:var(--black);padding:14px 32px;text-decoration:none;font-size:10px;letter-spacing:2px;text-transform:uppercase;font-weight:600;transition:all .3s;}
+.btn-gold:hover{background:var(--gold-light);}
+.gold-divider{height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:0 32px;}
+footer{background:var(--dark);border-top:1px solid rgba(201,168,76,0.1);padding:40px 32px 24px;}
+.footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr;gap:32px;margin-bottom:24px;}
+.footer-logo{font-family:'Cormorant Garamond',serif;font-size:18px;color:var(--gold);text-decoration:none;display:block;margin-bottom:10px;}
+.footer-logo span{color:var(--white);}
+.footer-desc{font-size:12px;color:var(--grey);line-height:1.7;}
+.footer-col h4{font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:14px;}
+.footer-col ul{list-style:none;display:flex;flex-direction:column;gap:7px;}
+.footer-col ul a{font-size:12px;color:var(--grey);text-decoration:none;}
+.footer-col ul a:hover{color:var(--white);}
+.footer-bottom{border-top:1px solid rgba(255,255,255,0.05);padding-top:16px;}
+.footer-legal{font-size:10px;color:rgba(136,136,136,0.5);line-height:1.6;}
+@media(max-width:768px){nav{padding:14px 16px;}.nav-links{display:none;}.content{padding:0 16px 60px;}.levels{grid-template-columns:1fr;}.step{flex-direction:column;gap:12px;}.footer-grid{grid-template-columns:1fr;}}
+</style>
+</head>
+<body>
+<nav>
+  <a href="../index.html" class="logo">Investir<span>SurLOr</span>.fr</a>
+  <ul class="nav-links">
+    <li><a href="../index.html">Accueil</a></li>
+    <li><a href="comparateur-courtiers-or.html">Courtiers</a></li>
+    <li><a href="formation.html" class="active">Formation</a></li>
+    <li><a href="histoire-or.html">Histoire</a></li>
+    <li><a href="blog.html">Blog</a></li>
+  </ul>
+</nav>
+
+<div class="breadcrumb"><a href="../index.html">Accueil</a><span>›</span>Formation investissement or</div>
+
+<div class="page-hero">
+  <p class="eyebrow">Formation Complète</p>
+  <h1 class="page-title">Apprendre à investir<br>sur <em>l'Or</em></h1>
+  <p class="page-intro">Du débutant absolu à l'investisseur confirmé, notre formation couvre tous les aspects de l'investissement en or : analyse des marchés, supports d'investissement, gestion du risque et fiscalité.</p>
+</div>
+
+<div class="content">
+
+  <!-- NIVEAUX -->
+  <div class="levels">
+    <div class="level" style="background:var(--dark2);border:1px solid rgba(76,175,80,0.3);">
+      <div class="level-icon">🌱</div>
+      <div class="level-title" style="color:#4CAF50;">Débutant</div>
+      <div class="level-desc">Modules 1 à 3<br>Aucun prérequis<br>~3h de lecture</div>
+    </div>
+    <div class="level" style="background:var(--dark2);border:1px solid rgba(255,152,0,0.3);">
+      <div class="level-icon">📈</div>
+      <div class="level-title" style="color:#FF9800;">Intermédiaire</div>
+      <div class="level-desc">Modules 4 à 5<br>Bases recommandées<br>~3h de lecture</div>
+    </div>
+    <div class="level" style="background:var(--dark2);border:1px solid rgba(244,67,54,0.3);">
+      <div class="level-icon">🏆</div>
+      <div class="level-title" style="color:#F44336;">Avancé</div>
+      <div class="level-desc">Module 6<br>Niveau intermédiaire requis<br>~2h de lecture</div>
+    </div>
+  </div>
+
+  <!-- MODULE 1 -->
+  <div class="module">
+    <div class="module-num">01</div>
+    <div class="module-title">Comprendre <em>l'or</em> avant d'investir</div>
+
+    <h3>Qu'est-ce que l'or ?</h3>
+    <p>L'or (symbole Au) est un métal de transition de numéro atomique 79. Ses propriétés exceptionnelles en font un métal unique :</p>
+    <ul>
+      <li><strong>Inaltérable :</strong> ne s'oxyde pas, ne rouille jamais</li>
+      <li><strong>Malléable :</strong> 1 gramme peut être battu en une feuille de 1 m²</li>
+      <li><strong>Dense :</strong> densité de 19,3 g/cm³</li>
+      <li><strong>Rare :</strong> tout l'or extrait tient dans un cube de 22 mètres de côté</li>
+    </ul>
+
+    <h3>Pourquoi l'or a-t-il de la valeur ?</h3>
+    <ul>
+      <li><strong>La rareté :</strong> production mondiale ~3 300 tonnes/an seulement</li>
+      <li><strong>L'universalité :</strong> reconnu dans toutes les cultures depuis 6 000 ans</li>
+      <li><strong>L'indestructibilité :</strong> l'or d'il y a 4 000 ans est toujours là</li>
+      <li><strong>La confiance :</strong> aucun gouvernement ne peut "imprimer" de l'or</li>
+    </ul>
+
+    <div class="highlight">
+      <p><strong>Règle d'or :</strong> L'or ne verse pas de dividendes. Sa valeur réside dans sa capacité à <strong>préserver le pouvoir d'achat</strong> sur le long terme. En 2 000 ans, une once d'or a toujours permis d'acheter environ 300 pains.</p>
+    </div>
+
+    <table>
+      <thead><tr><th>Indicateur</th><th>Valeur</th></tr></thead>
+      <tbody>
+        <tr><td>Stock mondial total extrait</td><td>~208 000 tonnes</td></tr>
+        <tr><td>Production annuelle</td><td>~3 300 tonnes/an</td></tr>
+        <tr><td>Cours (juin 2024)</td><td>~2 300 USD/oz</td></tr>
+        <tr><td>Capitalisation totale</td><td>~15 000 Mds $</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- MODULE 2 -->
+  <div class="module">
+    <div class="module-num">02</div>
+    <div class="module-title">Les <em>différentes façons</em> d'investir dans l'or</div>
+
+    <h3>L'or physique</h3>
+    <p><strong>Lingots :</strong> disponibles de 1g à 12,5kg. Plus le lingot est grand, plus la prime est faible. Un lingot 1kg présente une prime d'environ 1,5 à 2%.</p>
+    <p><strong>Pièces :</strong> Napoléon 20F (5,81g d'or pur), Krugerrand (31,1g), Maple Leaf (31,1g, pureté 999,9‰). Toutes exonérées de TVA.</p>
+
+    <h3>Les ETF or</h3>
+    <p>Fonds cotés qui répliquent le cours de l'or. Deux types : <strong>adossés à l'or physique</strong> (SPDR Gold Shares, iShares Gold Trust) ou <strong>synthétiques</strong> (via contrats dérivés). Accessibles via DEGIRO, XTB, Saxo Bank.</p>
+
+    <h3>Les CFD sur l'or</h3>
+    <p>Produits dérivés à effet de levier jusqu'à 1:20. Exemple : avec 1 000€ et un levier 1:10, vous contrôlez 10 000€ sur l'or. Si l'or monte de 2%, vous gagnez 200€. Mais si l'or baisse de 2%, vous perdez 200€.</p>
+    <p style="color:#F44336;font-size:13px;">⚠️ 74% des traders CFD perdent de l'argent. Réservé aux investisseurs avertis.</p>
+
+    <h3>Les actions minières</h3>
+    <p>Investir dans Newmont, Barrick Gold, Agnico Eagle offre un <strong>levier sur le prix de l'or</strong> : quand l'or monte de 10%, les mines montent de 20 à 30%. Mais risque opérationnel plus élevé.</p>
+
+    <table>
+      <thead><tr><th>Profil</th><th>Support recommandé</th><th>Budget min.</th></tr></thead>
+      <tbody>
+        <tr><td>Épargnant prudent</td><td>Or physique (Napoléons)</td><td>300 €</td></tr>
+        <tr><td>Investisseur passif</td><td>ETF or (DEGIRO, XTB)</td><td>50 €</td></tr>
+        <tr><td>Investisseur actif</td><td>Actions minières</td><td>500 €</td></tr>
+        <tr><td>Trader court terme</td><td>CFD (XTB, eToro, IG)</td><td>500 €</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- MODULE 3 -->
+  <div class="module">
+    <div class="module-num">03</div>
+    <div class="module-title">Analyser le <em>marché de l'or</em></div>
+
+    <h3>Les facteurs qui influencent le cours</h3>
+    <ul>
+      <li><strong>Taux d'intérêt réels :</strong> le principal moteur. Taux réels bas = or monte</li>
+      <li><strong>Dollar américain :</strong> dollar faible = or plus cher</li>
+      <li><strong>Inflation :</strong> l'or protège contre la dévaluation monétaire</li>
+      <li><strong>Crises géopolitiques :</strong> guerres et tensions font monter l'or</li>
+      <li><strong>Achats des banques centrales :</strong> Chine, Russie, Pologne achètent massivement</li>
+      <li><strong>Demande de bijouterie :</strong> Inde et Chine représentent ~50% de la demande</li>
+    </ul>
+
+    <h3>Analyse technique de base</h3>
+    <ul>
+      <li><strong>Moyennes mobiles MA50/MA200 :</strong> le "Golden Cross" est un signal haussier fiable</li>
+      <li><strong>RSI :</strong> RSI > 70 = surachat, RSI < 30 = survente</li>
+      <li><strong>Niveaux psychologiques :</strong> 2 000$, 2 500$ jouent un rôle important</li>
+    </ul>
+  </div>
+
+  <!-- MODULE 4 -->
+  <div class="module">
+    <div class="module-num">04</div>
+    <div class="module-title">Guide <em>pas à pas</em> pour débuter</div>
+
+    <div class="steps">
+      <div class="step">
+        <div class="step-num">01</div>
+        <div>
+          <div class="step-title">Définissez votre objectif</div>
+          <div class="step-text">Protection contre l'inflation ? Spéculation court terme ? Patrimoine long terme ? Chaque objectif correspond à une forme d'investissement différente.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">02</div>
+        <div>
+          <div class="step-title">Choisissez votre support</div>
+          <div class="step-text">Or physique pour sécuriser son patrimoine, ETF pour la simplicité, CFD pour la spéculation, actions minières pour le levier.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">03</div>
+        <div>
+          <div class="step-title">Sélectionnez une plateforme</div>
+          <div class="step-text">Broker régulé (AMF, FCA, CySEC), frais transparents, service client en français. Voir notre <a href="comparateur-courtiers-or.html" style="color:var(--gold)">comparatif complet</a>.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">04</div>
+        <div>
+          <div class="step-title">Gérez votre risque</div>
+          <div class="step-text">Ne jamais investir plus de 10-15% de votre patrimoine en or. Diversifiez, utilisez des stop-loss sur les CFD.</div>
+        </div>
+      </div>
+      <div class="step">
+        <div class="step-num">05</div>
+        <div>
+          <div class="step-title">Maîtrisez la fiscalité</div>
+          <div class="step-text">Or physique : taxe forfaitaire 11,5% ou régime des plus-values. Or papier : PFU 30%. Voir notre <a href="fiscalite-or.html" style="color:var(--gold)">guide fiscalité</a>.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODULE 5 -->
+  <div class="module">
+    <div class="module-num">05</div>
+    <div class="module-title">Gestion du <em>risque</em> et stratégies</div>
+
+    <h3>Quelle allocation en or ?</h3>
+    <p>Les experts recommandent <strong>5 à 15%</strong> du portefeuille global en or. Ray Dalio (Bridgewater) recommande 7,5% dans son All Weather Portfolio.</p>
+
+    <h3>Le Dollar Cost Averaging (DCA)</h3>
+    <p>Investir un montant fixe régulièrement (ex: 100€/mois) indépendamment du cours. Avantages :</p>
+    <ul>
+      <li>Évite le risque de "mal timer" le marché</li>
+      <li>Profite de la volatilité</li>
+      <li>Constitue progressivement un stock d'or</li>
+    </ul>
+
+    <div class="highlight">
+      <p><strong>Les pièges à éviter :</strong> surpayer la prime (max 5-8%), acheter des contrefaçons (négociants certifiés uniquement), sur-leverager en CFD, oublier de garder ses factures d'achat.</p>
+    </div>
+  </div>
+
+  <!-- QUIZ -->
+  <div class="quiz-box">
+    <p style="font-size:10px;letter-spacing:3px;text-transform:uppercase;color:var(--gold);margin-bottom:12px;">Quiz Formation</p>
+    <div class="quiz-q">Quelle est la taxe forfaitaire applicable à la vente d'or physique en France ?</div>
+    <button class="quiz-option" onclick="checkQuiz(this, false)">A – 30% (Flat Tax)</button>
+    <button class="quiz-option" onclick="checkQuiz(this, true)">B – 11,5% (taxe spécifique or)</button>
+    <button class="quiz-option" onclick="checkQuiz(this, false)">C – 19% (IR classique)</button>
+    <button class="quiz-option" onclick="checkQuiz(this, false)">D – 0% (exonération totale)</button>
+    <p id="quiz-result" style="margin-top:14px;font-size:13px;display:none;"></p>
+  </div>
+
+  <div class="cta-box">
+    <h3>Prêt à investir dans <em style="color:var(--gold);font-style:italic;">l'or</em> ?</h3>
+    <p>Vous avez les connaissances. Choisissez maintenant le broker qui correspond à votre profil.</p>
+    <a href="comparateur-courtiers-or.html" class="btn-gold">Comparer les brokers →</a>
+  </div>
+
+</div>
+
+<div class="gold-divider"></div>
+
+<footer>
+  <div class="footer-grid">
+    <div>
+      <a href="../index.html" class="footer-logo">Investir<span>SurLOr</span>.fr</a>
+      <p class="footer-desc">La référence francophone pour investir sur l'or.</p>
+    </div>
+    <div class="footer-col">
+      <h4>Formation</h4>
+      <ul>
+        <li><a href="formation.html">Guide débutant</a></li>
+        <li><a href="histoire-or.html">Histoire de l'or</a></li>
+        <li><a href="fiscalite-or.html">Fiscalité</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Investissement</h4>
+      <ul>
+        <li><a href="comparateur-courtiers-or.html">Comparateur</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="../index.html">Cours en direct</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p class="footer-legal">InvestirSurLor.fr – Site d'information. Rien ne constitue un conseil en investissement. Investir comporte des risques de perte en capital.</p>
+  </div>
+</footer>
+
+<script>
+function checkQuiz(btn, correct) {
+  document.querySelectorAll('.quiz-option').forEach(b => b.disabled = true);
+  const result = document.getElementById('quiz-result');
+  result.style.display = 'block';
+  if (correct) {
+    btn.style.background = 'rgba(76,175,80,0.15)';
+    btn.style.borderColor = '#4CAF50';
+    btn.style.color = '#4CAF50';
+    result.innerHTML = '✅ <strong>Bonne réponse !</strong> La taxe forfaitaire sur l\'or physique est de 11,5% sur le prix de cession total.';
+    result.style.color = '#4CAF50';
+  } else {
+    btn.style.background = 'rgba(244,67,54,0.1)';
+    btn.style.borderColor = '#F44336';
+    btn.style.color = '#F44336';
+    result.innerHTML = '❌ <strong>Pas tout à fait.</strong> La bonne réponse est B – 11,5%. L\'or physique bénéficie d\'un régime fiscal spécifique différent de la Flat Tax.';
+    result.style.color = '#F44336';
+  }
+}
+</script>
+</body>
+</html>
 
